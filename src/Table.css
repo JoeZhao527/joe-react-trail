@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr > td, tr > th {
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+tr > th {
+    text-align: left;
+}
+
+td > button {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    height: 100%;
+    color: white;
+    background-color: rgb(47, 113, 201);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
